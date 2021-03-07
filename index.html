@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="style.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+        <input type="text" id="result">
+        <div class="all-button">
+        <input type="button" value="CLR" onclick="clr(' ')">
+        <input type="button" value="税込" onclick="taxIn()">
+        <input type="button" value="税抜" onclick="taxOut()">
+        <input type="button" value="×" onclick="edit('*')">
+        <input type="button" value="7" onclick="edit(7)">
+        <input type="button" value="8" onclick="edit(8)">
+        <input type="button" value="9" onclick="edit(9)">
+        <input type="button" value="÷" onclick="edit('/')">
+        <input type="button" value="4" onclick="edit(4)">
+        <input type="button" value="5" onclick="edit(5)">
+        <input type="button" value="6" onclick="edit(6)">
+        <input type="button" value="-" onclick="edit('-')">
+        <input type="button" value="1" onclick="edit(1)">
+        <input type="button" value="2" onclick="edit(2)">
+        <input type="button" value="3" onclick="edit(3)">
+        <input type="button" value="+" onclick="edit('+')">
+        <input type="button" value="0" onclick="edit(0)">
+        <input type="button" value="00" onclick="zeroW()">
+        <input type="button" value="." onclick="edit('.')">
+        <input type="button" value="=" onclick="calc()">
+        </div>
+        <script src="main.js"></script>
+    </body>

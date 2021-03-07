@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.all-button {
+    display: grid;
+    grid-template-columns:80px 80px 80px 80px;
+    grid-template-rows:40px 40px 40px 40px;
+    gap: 5px;
+    width: 335px;
+    margin:15px auto;
+}
+input {
+    border-radius: 10px;
+    font-size: 25px;
+}
+body {
+    margin-top: 60px;
+}
+#result {
+    display: block;
+    font-size: 40px;
+    width: 325px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #222;
+    color: #fff;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: right;
+    padding:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#display {
+    font-size: 40px;
+    width: 325px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #222;
+    color: #fff;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: right;
+    padding:5px;
+}
+
+
